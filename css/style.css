@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+text-align: center;
+}
+
+body{
+    font-size: 18px;
+}
+
+html{
+    font-size: 20px;
+}
+
+p {
+    border: 1px solid rebeccapurple;
+    border-radius: 50px;
+    width: 500px;
+    padding: 320px 40px 20px 40px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    margin: 20px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+.First_paragraph{
+    box-sizing: content-box;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+.First_paragraph::first-letter{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+.Second_paragraph{
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;   
+    transition: 0.3s all linear;
+}
+
+.Second_paragraph:hover {
+    color: rgb(202, 118, 40);
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+
+.navbar {
+    width: 100%;
+    color: white;
+    list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 6%;
+}
+
+.navbar li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s all linear;
+}
+
+li a:hover{
+    color: tomato;
+}
+li .line {
+    width: 0px;
+    height: 3px;
+    background-color: tomato;
+    transition: 0.3s all linear;
+    margin: auto;
+}
+
+li:hover .line{
+    width: 100%;
+}
